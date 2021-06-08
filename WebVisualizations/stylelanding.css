@@ -47,11 +47,6 @@ body{
         float: left;
         width: 100%;
         height: 100%;
-      }
-  
-  #other-image {
-      width: 100%;
-      height: 100%;
     }
   
   #visualizations-png {
@@ -65,34 +60,27 @@ body{
       width: 90%;
       height: 90%;
   }
-  .table1{
+  .table{
       text-align: center;
   }
   
   
-  .tablehead {
-      word-wrap: normal;
+  .table-header {
+      word-wrap: center;
+      color: black;
   }
   
-  .table-content {
+  .table-data {
       margin: 30px 10px 10px 10px;
       border: 10px 10px 10px 10px;
       padding: 10px 10px 10px 10px;
       color: black;
-      background-color: white;
+      background-color: #cee6e9;
   }
   
   tr:nth-child(odd) {
-      background-color: #f2f2f2;
+      background-color:white;
     }
-  .comp-title {
-      text-align: center;
-      margin-bottom: 0px;
-      color: rgb(15, 214, 204);
-      font-size: 25px;
-      font-weight: bold;
-      font-family: Georgia, Times, "Times New Roman", serif;
-  }
   
   @media screen and (max-width: 700px) {
       .topnav.responsive {position: relative;}
